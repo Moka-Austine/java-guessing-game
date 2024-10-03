@@ -104,6 +104,7 @@ class game {
 
         if(num_guess > 2){
             System.out.print("Sorry you are unable to correctly guess the number which is " + random_num + ".");
+            System.out.print("We wish you luck next time.");
             num_guess = 0;
         }
         
